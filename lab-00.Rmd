@@ -1,7 +1,7 @@
 ---
 title: "Lab 00 - Hello IDS!"
 author: "Freddie Acott"
-date: "`r Sys.Date(20/09/24)`"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -54,9 +54,9 @@ p1
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Git Username", 
+          y = "Fav number",
+          title = "Numbers and usernames")
 ```
 
 *Remove this text (including the stars), and add your answer for Exercise 19 here.*
